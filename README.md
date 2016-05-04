@@ -1,5 +1,7 @@
 # redux-actions-class
 
+[![Build Status](https://travis-ci.org/Lokua/redux-actions-class.svg?branch=master)](https://travis-ci.org/Lokua/redux-actions-class)
+
 > Create action creators and types with minimal redundancy.
 
 ## Install

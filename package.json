@@ -1,12 +1,13 @@
 {
   "name": "redux-actions-class",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create action creators and types with minimal redundancy.",
   "main": "src/Actions.js",
   "jsnext:main": "src/Actions.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive '**/*.spec.js'",
-    "prepublish": "babel src --out-dir dist && npm t"
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build && npm t"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,6 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
-    "camelcase": "lokua/camelcase.git#single-letter-to-lower"
+    "camelcase": "^3.0.0"
   }
 }
