@@ -5,7 +5,8 @@
 ## Install
 
 ```bash
-#not yet, must refer to get
+# just on git for now
+npm i lokua/redux-actions-class.git --save
 #npm i redux-actions-class --save
 ```
 
@@ -14,7 +15,7 @@
 The benefits of this package compared to __redux-actions__ is that you 
 don't have to manage a separate `actionTypes` file; you get to define actions
 on an orderly object literal and all your types and creators will live on just 
-one object. Just a matter of preference, I think its cleaner.
+one object. Just a matter of preference.
 
 Considering __redux-act__, we achieve a similar goal of not having to declare or
 manage string constants, however, this package still enforces the 
@@ -45,7 +46,7 @@ const actions = new Actions({
   
   // thunks work, too
   ADD_COLORS (...colors) {
-    return dispatch => colors.forEach(color => dispatch(this.addTodo(color)))
+    return dispatch => colors.forEach(color => dispatch(this.addColor(color)))
   }
 })
 
