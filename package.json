@@ -2,7 +2,7 @@
   "name": "redux-actions-class",
   "version": "1.0.3",
   "description": "Create action creators and types with minimal redundancy.",
-  "main": "src/Actions.js",
+  "main": "dist/Actions.js",
   "jsnext:main": "src/Actions.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive '**/*.spec.js'",

@@ -1,2 +1,4 @@
-src
 *.spec.js
+.travis.yml
+.babelrc
+.eslintrc.js
