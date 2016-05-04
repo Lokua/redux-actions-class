@@ -7,26 +7,24 @@
 ## Install
 
 ```bash
-# just on git for now
-npm i lokua/redux-actions-class.git --save
-#npm i redux-actions-class --save
+npm i redux-actions-class --save
 ```
 
 ## Why not [redux-actions](redux-actions) or [redux-act](redux-act)?
 
-The benefits of this package compared to __redux-actions__ is that you 
+The benefits of this package compared to __redux-actions__ is that you
 don't have to manage a separate `actionTypes` file; you get to define actions
-on an orderly object literal and all your types and creators will live on just 
+on an orderly object literal and all your types and creators will live on just
 one object. Just a matter of preference.
 
 Considering __redux-act__, we achieve a similar goal of not having to declare or
-manage string constants, however, this package still enforces the 
+manage string constants, however, this package still enforces the
 SCREAMING_UNDERSCORE_CASING we are so used to.
 
-In any case, both of those package offer some goodies beyond actions, like 
+In any case, both of those package offer some goodies beyond actions, like
 higher level reducer creators. For that I recommend coupling this package with
 [redux-create-reducer][redux-create-reducer] - from the example in the
-redux [reducing boilerplate][reducing] section. As far as FSA enforcement goes, 
+redux [reducing boilerplate][reducing] section. As far as FSA enforcement goes,
 I got nothing but am open to PRs and suggestions.
  
 ## Example
