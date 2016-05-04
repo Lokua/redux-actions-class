@@ -1,4 +1,0 @@
-#!/bin/bash
-
-./node_modules/.bin/webpack \
---module-bind 'js=babel' src/Actions.js index.js
